@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/build/tailwind.css" />
+    <title>Counter with js</title>
+  </head>
+  <body class="bg-backgroundColor">
+    <main class="container mx-auto p-1 w-5/6 rounded-md max-w-sm mt-48">
+      <section class="flex flex-col items-center gap-10 w-full p-4">
+        <div class="flex items-center justify-center gap-6">
+          <button id="decrement" class="btn btn--primary">-</button>
+          <button id="reset" class="btn btn--primary">Reset</button>
+          <button id="increment" class="btn btn--primary">+</button>
+        </div>
+        <div
+          class="flex items-center gap-5 md:text-3xl text-textColor font-bold"
+        >
+          <span>Counter: </span
+          ><span id="count_value" class="text-white">0</span>
+        </div>
+      </section>
+    </main>
+    <script src="/public/index.js"></script>
+  </body>
+</html>
